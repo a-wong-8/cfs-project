@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf') format('truetype')
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 5px;
+    background-color: azure;
+    box-shadow: 1px 1px 4px black;
+    font-size: 14px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > span:last-child {
+    padding-right: 10px;
+}
+
+.roles-body, .pathway-body, .passphrase-body {
+    background: linear-gradient(rgb(9, 170, 232), #9198e5);
+    background-size: cover;  
+    height: 100vh;
+}
+
+#roles {
+    margin-top: 100px;
+}
+
+.school-codes-div {
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 1px 1px 4px #111111;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    margin-bottom: 200px;
+}
+
+.school-codes-div > li {
+    font-size: 22px;
+    list-style: none;
+}
+
+.school-codes-div > li > a:hover {
+    color: rgb(9, 170, 232);
+}
+
+.logo {
+    width: 150px;
+    padding: 20px;
+}
+
+body {
+    justify-content: center;
+    margin: auto;
+}
+
+h2 {
+    padding-top: 25px;
+}
+
+#questions {
+    margin-left: 8rem;
+    margin-bottom: 50px;
+}
+
+.questions-body {
+    background: linear-gradient(rgb(9, 170, 232), #9198e5);
+    background-size: cover;  
+    height: 100%;
+}
+
+.directory-body, .pathway-detail-body, .checkin-questions-body {
+    background: linear-gradient(rgb(9, 170, 232), #9198e5);
+    background-size: cover;  
+    height: 100%;
+}
+
+.goals-body, .school-codes-body {
+    background: linear-gradient(rgb(9, 170, 232), #9198e5);
+    background-size: cover;  
+    height: 100%;
+}
+
+.pathway-body {
+    overflow-y: hidden;
+    margin-bottom: 1rem;
+}
+
+#image {
+    height: 220px;
+    width: auto;
+    padding: 10px;
+}
+
+.img-pathways {
+    display: block;
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    border-bottom: dotted;
+    color: rgb(9, 170, 232);
+}
+
+#main-img {
+    width: 200px;
+}
+
+#tips-img {
+    width: 180px;
+    padding: 5px;
+}
+
+#checkin-img {
+    width: 150px;
+}
+
+header > a:first-child, header > span:first-child {
+    margin-left: 10px;
+}
+
+#welcome-img-div {
+    width: 200px;
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding-right: 5rem;
+}
+
+#onboard-intro {
+    margin-right: 60px;
+}
+
+#onboard-intro > p > a:hover {
+    color: #111111;
+}
+
+#goal {
+    padding: 0px 80px 30px 100px; 
+    border-radius: 5px; 
+    background-color: azure; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-bottom: 20px; 
+    box-shadow: 1px 1px 4px #111111; width:500px
+}
+
+.graph {
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.graph > ul > li {
+    list-style: none;
+    width: 130px;
+    height: 25px;
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.graph ul {
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+    display:grid;
+    margin-bottom: 100px;
+}
+
+.passphrase-body > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 25px;
+}
+
+.passphrase-body > form > input {
+    height: 29px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.passphrase-body > form > button {
+    height: 31px;
+    width: 75px;
+    margin-left: 5px;
+    background-color: azure;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 4px #111111;
+}
+
+.passphrase-body > form > button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+#pass-logo {
+    width: 200px;
+}
+
+.passphrase-body > p {
+    text-align: center;
+}
+
+.table {
+    width: 60%;
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+#video-div {
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    border-radius: 5px;
+    width: 600px;
+    padding: 0.5rem 4rem 0.5rem;
+    margin: 1rem 0;
+}
+
+#takeaways > div > img {
+    width: 4rem;
+    padding: 1rem;
+}
+
+#takeaways > div {
+    display: inline-flex;
+}
+
+#takeaways > div > span {
+    margin-top: 38px;
+    padding-left: 10px;
+}
+
+#takeaways {
+    background-color: azure;
+    border-radius: 5px;
+    padding: 1rem 4rem 1rem 4rem;
+    box-shadow: 1px 1px 4px #111111;
+    width: 800px;
+}
+
+#pathway-detail-intro {
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1px 2rem;
+}
+
+#tips-div {
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 80%;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+#topic-div {
+    background-color: azure;
+    box-shadow: 1px 1px 4px #111111;
+    border-radius: 5px;
+    margin: 1rem 0;
+    width: fit-content;
+    padding: 1rem;
+}
